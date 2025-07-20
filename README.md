@@ -35,54 +35,24 @@ Key SQL techniques used:
 Main tasks performed:
 
 - User retention rate analysis
-- Zero-balance account detection
-- Monthly transaction volume tracking
-- Segmentation by transaction type and frequency
-- First vs. last activity comparisons
+- User behavior by channel and region
+- Risk customer detection
+- Customer segmentation by transaction type and frequency
+
 
 ---
 
 ## 📊 Key Insights
-
-### 🧾 User Retention Rate by Segment
-- Premium users: **73%** retention  
-- Savings users: **60%** retention  
-- Basic users: **42%** retention  
-
----
-
-### 💤 Dormant Accounts with Zero Balance
-- **18% of accounts** showed **zero balance** for over **6 months**.
-
----
-
-### 💸 Most Active Transaction Types
-- Transfers and bill payments dominate activity logs.  
-- Loan repayments show **cyclical patterns**.  
-- Credit card payments spike at **month-end**.
-
----
-
-### 📈 Monthly Transaction Volume Trends
-- Peaks in **March**, **June**, and **November**  
-  (aligned with salary bonuses and tax deadlines).
-
----
-
-### 📅 First vs. Last Transaction Gap
-- Churned users: **92-day average gap**  
-- Active users: **< 14-day** transaction gaps  
-
----
-
-### 🏆 High-Value Customers
-- Top **5% of customers** contribute **40% of total volume**.
-
----
+- Retention Rate by Customer Segment: Middle Income (40.9%), High Income (32.95%), Low Income (23%)
+- Retention Rate by Transaction Type: Fee (18.46%), Loan Payment (17.96%), Deposit (17.49%), Card Payment (17.39%), Transfer (17.22%), Withdrawal (17.21%)
+- Transaction Amount by Channel: ATM transactions recorded the highest amount across all income segments
+- Most Used Currency by Volume: EUR is the dominant currency across all customer segments
+- Highest-Fee Product Subcategories for Loan Payments: Business and Student loans
+- Segment with the Highest Loan Payment Fees: Low Income customers
 
 ## ✅ Conclusion
 
-This project demonstrates how **SQL can unveil patterns hidden in financial data** — from identifying loyal customers to detecting dormant accounts.
+This project demonstrates how **SQL can unveil patterns hidden in financial data** — from identifying risk customers to detecting user behavior by channel and region.
 
 Understanding these behaviors is crucial for banks aiming to:
 
@@ -101,5 +71,5 @@ Understanding these behaviors is crucial for banks aiming to:
 | File Name           | Description                                      |
 |---------------------|--------------------------------------------------|
 | `banking_users.sql` | SQL queries for behavior detection               |
-| `retention_report.csv` | Retention insights (exported results)        |
+| `banking_customer.csv` | Retention insights (exported results)        |
 | `README.md`         | Project summary and key findings (this file)     |
