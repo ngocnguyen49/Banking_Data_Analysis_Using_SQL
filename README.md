@@ -70,6 +70,7 @@ Understanding these behaviors is crucial for banks aiming to:
 
 | File Name           | Description                                      |
 |---------------------|--------------------------------------------------|
-| `banking_users.sql` | SQL queries for behavior detection               |
+| `query.sql` | SQL queries for behavior detection               |
+| `create_table.sql` | Create table from csv file               |
 | `banking_customer.csv` | Retention insights (exported results)        |
 | `README.md`         | Project summary and key findings (this file)     |
